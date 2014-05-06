@@ -2,6 +2,9 @@
     "name": "artistan/urlencode",
     "description": "Allow Urlencoded slashed and more in routing parameters",
     "keywords": ["artistan", "urlencode", "laravel", "laravel4"],
+    "license": [
+        "GPL-3.0+"
+    ],
     "authors": [
         {
             "name": "Charles Peterson",
