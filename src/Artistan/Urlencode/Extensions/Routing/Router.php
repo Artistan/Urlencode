@@ -3,10 +3,10 @@
  * User: cpeterson
  * Date: 2013
  */
-namespace Ittrader\Ittrader\Extensions\Routing;
+namespace Artistan\Urlencode\Extensions\Routing;
 
 use Illuminate\Routing\Router as Rtr;
-use Ittrader\Ittrader\Extensions\Routing\Route as Route;
+use Artistan\Urlencode\Extensions\Routing\Route as Route;
 
 class Router extends Rtr
 {

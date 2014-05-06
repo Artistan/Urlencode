@@ -1,4 +1,4 @@
-<?php namespace Ittrader\Ittrader\Extensions\Routing\Matching;
+<?php namespace Artistan\Urlencode\Extensions\Routing\Matching;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Route;

@@ -3,7 +3,7 @@
  * User: cpeterson
  * Date: 2013
  */
-namespace Ittrader\Ittrader\Extensions\Routing;
+namespace Artistan\Urlencode\Extensions\Routing;
 
 use Illuminate\Routing\UrlGenerator as UrlGen;
 

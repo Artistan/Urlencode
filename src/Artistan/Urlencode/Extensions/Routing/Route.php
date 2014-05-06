@@ -3,11 +3,11 @@
  * User: cpeterson
  * Date: 2013
  */
-namespace Ittrader\Ittrader\Extensions\Routing;
+namespace Artistan\Urlencode\Extensions\Routing;
 
 use Illuminate\Routing\Route as Rt;
 use Illuminate\Http\Request;
-use Ittrader\Ittrader\Extensions\Routing\Matching\UriValidator;
+use Artistan\Urlencode\Extensions\Routing\Matching\UriValidator;
 use Illuminate\Routing\Matching\HostValidator;
 use Illuminate\Routing\Matching\MethodValidator;
 use Illuminate\Routing\Matching\SchemeValidator;

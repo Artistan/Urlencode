@@ -1,6 +1,8 @@
 <?php namespace Artistan\Urlencode;
 
 use Illuminate\Support\ServiceProvider;
+use Artistan\Urlencode\Extensions\Routing\Router as Router;
+use Artistan\Urlencode\Extensions\Routing\UrlGenerator as UrlGenerator;
 
 class UrlencodeServiceProvider extends ServiceProvider {
 
