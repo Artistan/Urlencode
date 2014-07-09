@@ -21,6 +21,11 @@ Add a ServiceProvider to your providers array in `app/config/app.php`:
 
 	)
 
+Apache conf
+http://httpd.apache.org/docs/2.2/mod/core.html#allowencodedslashes
+
+	AllowEncodedSlashes On|NoDecode
+
 ### Warning
 
     Ensure all your routes are properly rawurlencoded!
