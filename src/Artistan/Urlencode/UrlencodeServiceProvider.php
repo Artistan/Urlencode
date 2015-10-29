@@ -26,6 +26,12 @@ class UrlencodeServiceProvider extends ServiceProvider {
         $this->app['router'] = $this->app->share(function($app)
         {
             $router = new Router($app['events'], $app);
+
+            if ($app['env'] == 'testing')
+            {
+                $router->disableFilters();
+            }
+
             return $router;
         });
         $this->app['url'] = $this->app->share(function($app)
