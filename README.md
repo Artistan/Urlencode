@@ -23,6 +23,10 @@ update composer.json
         "artistan/urlencode": "*"
     },
 
+update app.php
+
+        //App\Providers\RouteServiceProvider::class,
+        \Artistan\Urlencode\RouteServiceProvider::class
 
 Overrides the default routing in Laravel 4 to allow all characters to be encoded including slashes!
 
