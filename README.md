@@ -1,5 +1,28 @@
-Urlencode for Laravel 4
+# Urlencode for Laravel 7
+
 ==============
+
+
+### Package Dev setup
+
+from the laravel framework root.
+
+
+    mkdir packages/Artistan
+    
+    git clone https://github.com/Artistan/Urlencode.git
+
+update composer.json
+
+    "repositories": [{
+        "type": "path",
+        "url": "./packages/Artistan/Urlencode"
+    }],
+    
+    "require": {
+        "artistan/urlencode": "*"
+    },
+
 
 Overrides the default routing in Laravel 4 to allow all characters to be encoded including slashes!
 

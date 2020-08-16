@@ -2,9 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Route;
-use Illuminate\Routing\Matching\ValidatorInterface;
 
-class UriValidator implements ValidatorInterface {
+class UriValidator extends \Illuminate\Routing\Matching\UriValidator {
 
     /**
      * Validate a given rule against a route and request.
@@ -15,7 +14,8 @@ class UriValidator implements ValidatorInterface {
      */
     public function matches(Route $route, Request $request)
     {
-        $path = $request->path() == '/' ? '/' : '/'.$request->path();
+        dd( $route,  $request);
+        $path = rtrim($request->path(), '/') ?: '/';
         return preg_match($route->getCompiled()->getRegex(), $path);
     }
 
